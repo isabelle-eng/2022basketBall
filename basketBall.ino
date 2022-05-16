@@ -22,7 +22,7 @@ void loop() {
     long duration, distance;  //시간, 거리
  
     digitalWrite(TRIG, LOW);
-    delayMicroseconds(2);
+    delayMicroseconds(10);
     digitalWrite(TRIG, HIGH);
     delayMicroseconds(10);
     digitalWrite(TRIG, LOW);
